@@ -2,4 +2,4 @@
 
 
 define('APP_NAME', 'PHP Chat');
-define('APP_VERSION', '7');
+define('APP_VERSION', 'v7');
