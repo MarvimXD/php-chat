@@ -1,0 +1,132 @@
+* {padding: 0;margin: 0;}
+
+:root {
+
+    --border-color: #EFEFEF;
+    --shadow-color: #000;
+    --background: #77B8E8;
+ 
+}
+
+
+.chat-container {
+
+    width: 400px;
+    height: 450px;
+    border: 1px solid var(--border-color);
+    position: fixed;
+    bottom: 0;
+    right: 2%;
+    box-shadow: 0 0 15px var(--shadow-color);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+
+}
+
+.chat-menu-options {
+
+    width: 100%;
+    height:30px;
+    border-bottom: 1px solid var(--border-color);
+    /* background-color: var(--background); */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+
+}
+
+.chat-menu-option {
+    /* background-color: green; */
+}
+
+.chat-menu-options:hover {cursor: pointer;}
+
+#chat-menu-option-id-close-icon {
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin-top: 5px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#chat-menu-option-id-text {
+    float: left;
+    margin-top: 5px;
+    margin-right: 10px;
+    text-align: left;
+    margin-left: 30px;
+}
+
+
+#chat-messages {
+    width: 98%;
+    height: 65%;
+    margin-top: 10px;
+    margin-left: 2px;
+    border-bottom: 1px solid var(--border-color);
+    overflow-y: auto;
+}
+
+.chat-messages-input-field {
+    width: 98%;
+    margin-left: 2px;
+    border: 1px solid var(--border-color);
+
+}
+
+#message {
+    width: 96%;
+    height: 20px;
+    padding: 5px;
+}
+
+#chat-messages-input-text {
+    height: 8%;
+
+}
+#chat-messages-input-submit {
+
+}
+
+#btnSubmit {
+    width: 100%;
+    height: 30px;
+    border: none;
+    background-color: var(--background);
+    font-weight: 600;
+    color: white;
+}
+#btnSubmit:hover{cursor: pointer;background-color: #B4DEFD;color:black;}
+
+
+.chat-ppl-msg {
+    width: 100%;
+    /* height: 10%;
+    background-color: red; */
+}
+.chat-ppl-msg-division {
+    float: left;
+    margin-bottom: 20px;
+}
+.chat-ppl-msg-division-right {
+    float: right;
+    margin-bottom: 20px;
+}
+#chat-ppl-msg-division-id-img {
+    width: 50px;
+    height: 50px;
+}
+#chat-ppl-msg-division-id-msg {
+    width: 80%;
+    margin-left: 20px;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 12px 0;
+    border-bottom: 1px solid var(--border-color);
+}
