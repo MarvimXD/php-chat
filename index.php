@@ -1,4 +1,4 @@
-<?php include('php/info.php') ?>
+<?php require_once('php/info.php') ?>
 
 <!DOCTYPE html>
 <html lang="pt-br">
