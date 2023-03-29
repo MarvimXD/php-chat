@@ -4,6 +4,10 @@ This is a free and open source chat built using PHP and Ajax...
 if you are interested in helping improve this chat, send an e-mail with your git user to victor46934@gmail.com
 
 
+# What is it made for?
+
+> Mainly it's an easy html insertable chat for PHP web applications
+
 # How to make it run?
 
 > You're gonna need a server on your computer, you can use easily XAMPP or equals;
