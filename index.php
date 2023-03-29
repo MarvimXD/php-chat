@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chat PHP v7</title>
+    <title><?= APP_NAME . " - " . APP_VERSION ?></title>
 
     <!-- CHAT CSS ARCHIVE  -->
     <link rel="stylesheet" href="css/chatStyle.css">
@@ -32,7 +32,7 @@
                 <img src="images/arrow.png" width="10px" height="10px" alt="">
             </div>
             <div id="chat-menu-option-id-text" class="chat-menu-option">
-                <h4>Chat PHP v7</h4>
+                <h4><?= APP_NAME . " - " . APP_VERSION ?></h4>
             </div>
         </div>
         <!-- CHAT MENU OPTIONS  -->
