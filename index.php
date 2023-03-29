@@ -1,3 +1,5 @@
+<?php include('php/info.php') ?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
